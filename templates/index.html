@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vuln WebApp</title>
+</head>
+<body>
+    <h1>Users</h1>
+    <form method="POST">
+        <input type="text" name="username" placeholder="username" require>
+        <input type="text" name="password" placeholder="password" require>
+        <input type="text" name="content" placeholder="content">
+        <button type="submit">Add</button>
+    </form>
+
+    <h2>Stored Users:</h2>
+    <ul>
+        {% for u in users %}
+            <li><b>{{ u.username }}</b> ({{ u.password }}) → {{ u.content>
+        {% endfor %}
+    </ul>
+</body>
+</html>
