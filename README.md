@@ -10,7 +10,7 @@ This is a deiliberately vulnerable web app built for hands on cybersecurity lear
 
 
 # Vulnerable-Flask-Webapp/
-│
+```
 ├─ app.py
 ├─ db.py
 ├─ requirements.txt
@@ -19,4 +19,4 @@ This is a deiliberately vulnerable web app built for hands on cybersecurity lear
 └─ static/          
     ├─ style.css
     ├─ script.js
-
+```
